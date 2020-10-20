@@ -1,0 +1,31 @@
+ #logo {
+  height:50px;
+  width:165px;
+}
+div {
+  text-align:center;
+  padding-top:30px;
+}
+ label {
+ font-size:25px;
+ font-family:arial,serif;
+}
+button {
+  background-color:darkblue;
+  color:white;
+  width:400px;
+  font-size:20px;
+  border-radius:7px;
+  height:40px;
+}
+#ty {
+  font-size:15px;
+}
+#oy {
+  color:#2a64ff;
+  font-size:15px;
+}
+#amn {
+  padding-top:25px;
+}
+
