@@ -1,31 +1,14 @@
- #logo {
-  height:50px;
-  width:165px;
+.launch {
+	background-color:darkblue;
+    color:white;
+    width:65%;
+	font-family: 'Roboto', sans-serif;
+    font-weight:200px;
+	font-size: 30px;
+    border-radius:7px;
+    height:10%;
+	border-width: 0px;
 }
-div {
-  text-align:center;
-  padding-top:30px;
+body {
+	text-align: center;
 }
- label {
- font-size:25px;
- font-family:arial,serif;
-}
-button {
-  background-color:darkblue;
-  color:white;
-  width:400px;
-  font-size:20px;
-  border-radius:7px;
-  height:40px;
-}
-#ty {
-  font-size:15px;
-}
-#oy {
-  color:#2a64ff;
-  font-size:15px;
-}
-#amn {
-  padding-top:25px;
-}
-

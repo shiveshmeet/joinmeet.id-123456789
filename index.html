@@ -1,41 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="utf-8">
+	<meta name="description" content="Video Conference App - ShiveshMeetMeet is the best & free team collaboration & video call app which offers features like WebRTC support & more. Download now!">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Join Meet &#124; ShiveshMeet</title>
+				<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://shiveshmeet.github.io/assests/shiveshmeetlogo.png" rel="icon">
+</head>
 
-<title>Join Meet - ShiveshMeet</title>
-
-<link rel="icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/shivesh-play.appspot.com/o/shiveshmeetlogo.png?alt=media&token=2646f3d8-65e2-4360-a182-f452c0cda184">
-<span id="header">
-  <image id="logo"height=50px width=145px src="https://firebasestorage.googleapis.com/v0/b/shivesh-play.appspot.com/o/shiveshmeetlogowithtext.png?alt=media&token=29f186f6-230c-4033-85ce-8e01c4351274">
-    </image>
-  </span>
-<div text-align="center" >
-  <image id="123" src="https://firebasestorage.googleapis.com/v0/b/shivesh-play.appspot.com/o/shiveshmeetad.png?alt=media&token=43e8b532-c396-4264-b851-ef7d07b0c910" >
-    <div>
-    <label id="xyz">Experience the best of ShiveshMeet with the Mobile app</label>
-      <div>
-        <button id="downloadandroid" onclick=download() >Download The ShiveshMeet Android app</button>
-        </div>
-  <div>
-        <span id="amn">
-          <label id="ty">Already have the ShiveshMeet App?</label>
-            <span>
-              <label id="oy" onclick=reload() >Launch It now</label>
-            </span>
-          </span>
-      </div>
-      <body onload="reload()">
-      </body>
-      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<body onload="popup()">
+				<script src="main.js"></script>
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
   chat-title="ShiveshMeet"
   agent-id="3f671aa5-9046-4992-957a-58f8e32a6819"
   language-code="en"
 ></df-messenger>
-      <script type="text/javascript">
-        function reload() {
-      window.confirm("Open ShiveshMeet?")
-}
-function download() {
-  window.confirm("Download ShiveshMeet?")
-}
-      </script>
-      <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/shivesh-playmeet.appspot.com/o/style.css?alt=media&token=87d4717f-6845-4b2b-94c5-66fd0b4bf722" >
+	<img src="https://shiveshmeet.github.io/assests/shiveshmeetad.png"><br>
+	<button id="join" onclick="download()" class="launch">Download ShiveshMeet</button><br>
+	<label style="font-family: 'Roboto', sans-serif;">Your meeting has been launched.
+Don’t see your meeting?</label>
+	<button onclick="popup()" style="background-color: white;border-width: 0px; border-color: white;color: blue; font-size: 17.5px;width: 100px;font-family: 'Roboto', sans-serif;">Launch It</button>
+</body>
+</html>
